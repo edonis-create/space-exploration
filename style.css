@@ -1,0 +1,100 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #00509e;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #003f7d;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  display: block;
+  font-size: 1rem;
+}
+
+nav ul li a:hover {
+  background-color: #004f99;
+}
+
+/* Main content styles */
+main {
+  padding: 1rem;
+}
+
+main h2 {
+  color: #00509e;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+main p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+main figure {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+main figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+main video {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  background-color: #003f7d;
+  color: white;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}

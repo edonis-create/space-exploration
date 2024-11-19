@@ -1,0 +1,125 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f9ff; /* Light blue to evoke the vastness of space */
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #002d5c; /* Deep space blue */
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #001a3e; /* Darker blue for navigation */
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  display: block;
+  font-size: 1rem;
+}
+
+nav ul li a:hover {
+  background-color: #003366;
+}
+
+/* Main content styles */
+main {
+  padding: 1rem;
+}
+
+main h2 {
+  color: #002d5c; /* Matches the header for consistency */
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+main h3 {
+  color: #001a3e;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+main p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Section styles */
+section {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #e6f2ff; /* Subtle blue for sections */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+section figure {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+section figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+/* Aside styles */
+aside {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #fff4e6; /* Contrast with space blue tones */
+  border: 1px solid #f5c18b;
+  border-radius: 5px;
+}
+
+aside h4 {
+  margin-top: 0;
+  color: #002d5c; /* Consistent with the header */
+}
+
+aside p {
+  margin: 0.5rem 0;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  background-color: #001a3e;
+  color: white;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
